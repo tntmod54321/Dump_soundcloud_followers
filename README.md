@@ -5,5 +5,9 @@
   
 You need 2 things to run this script,  
 1. A soundcloud API key, you can try to get one legitimately but good luck with that man, they haven't been accepting API key requests in years.  
-If you want to get one you can just go ctrl+i -> network -> sort by xhr and find any request where the url has &client_id= in it and swipe that id, it's an API key you can use (and it's unique to your account so don't share it).  
+If you want to get one you can just go ctrl+i -> network -> sort by xhr, reload the page and find any request where the url has &client_id= in it and swipe that id, it's an API key you can use (and it's unique to your account so don't share it).  
 2. The *NUMERICAL id* of the user you want to dump the followers from.  
+this isn't their custom url (e.g. soundcloud.com/zalinki), or if their name is of the format (soundcloud.com/user-69696969) then that number isn't their id either.  
+You have to go to their followers page and do the previous ctrl+i method to find a url along the format of followers?client_id= and go to that page, in the url it should be like "soundcloud.com/users/694201337/other_garbage" and the number after /users/ is their numerical id.  
+  
+  Then plop those 2 strings into the script and run it and it'll generate a file called "follower_list_(their numerical id).txt"
