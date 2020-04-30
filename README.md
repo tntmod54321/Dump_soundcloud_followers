@@ -10,4 +10,5 @@ If you want to get one you can just go ctrl+i -> network -> sort by xhr, reload 
 this isn't their custom url (e.g. soundcloud.com/zalinki), or if their name is of the format (soundcloud.com/user-69696969) then that number isn't their id either.  
 You have to go to their followers page and do the previous ctrl+i method to find a url along the format of followers?client_id= and go to that page, in the url it should be like "soundcloud.com/users/694201337/other_garbage" and the number after /users/ is their numerical id.  
   
-  Then plop those 2 strings into the script and run it and it'll generate a file called "follower_list_(their numerical id).txt"
+Then plop those 2 strings into the script and run it and it'll generate a file called "follower_list_(their numerical id).txt"  
+Keep in mind if you run the script on the same user again it'll just append the start of the next dump to the end of the last one, I don't feel like adding in the ability to not have duplicate users
