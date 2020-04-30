@@ -24,9 +24,11 @@ def dump_users():
 		current_chunk=1
 	else:
 		current_chunk=(current_chunk+1)
-	print("Chunk ", current_chunk, " finished.")
+		
+	print("Chunk", current_chunk, "finished.")
 
-f=open("follower_list.txt", "a+")
+file_list_name=("follower_list_"+user_id+".txt")
+f=open(file_list_name, "a+")
 urlpart1="https://api-v2.soundcloud.com/users/"
 urlpart2="/followers?limit=200&offset=0&linked_partitioning=1"
 finalurl=(urlpart1+user_id+urlpart2+"&client_id="+api_key)
