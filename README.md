@@ -1,2 +1,1 @@
-# Dump_soundcloud_followers
-A script to download a Soundcloud user's followers
+Hold up still gotta clean this shit up
