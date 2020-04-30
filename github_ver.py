@@ -24,7 +24,6 @@ def dump_users():
 		current_chunk=1
 	else:
 		current_chunk=(current_chunk+1)
-		
 	print("Chunk", current_chunk, "finished.")
 
 file_list_name=("follower_list_"+user_id+".txt")
