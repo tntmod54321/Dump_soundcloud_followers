@@ -1,3 +1,4 @@
+FYI if you're dumping more than one user's follower list you should prolly just fork it and make it more convenient (passing args via command line, timestamped filenames, etc...) I just really can't be assed.  
 #### A lil' script to dump a user's soundcloud followers  
 > This is my first python script  
 > (I've only used ahk/batch/applescript/shell/html/js before, so not really any kind of file reading/writing stuff)  
